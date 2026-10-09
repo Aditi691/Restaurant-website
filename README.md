@@ -1,58 +1,91 @@
-# 🍽️ Restaurant Website
+# 🍽️ RestroHub Restaurant Website
 
-A modern and responsive restaurant landing page designed to provide an engaging user experience. The website showcases the restaurant's menu, services, and contact information through an intuitive and visually appealing interface.
+This project is a React + Vite restaurant website built for a modern food brand experience. The app includes a landing page, menu showcase, about section, and contact page, all connected using React Router.
 
-## 🚀 Features
+## ✨ Features
 
-- Elegant and responsive landing page
-- Smooth navigation between sections
-- Interactive menu showcase
-- About Us section
-- Clean and modern UI
+- Hero landing section with restaurant branding
+- Responsive navigation bar and footer
+- Home, About, Menu, and Contact pages
+- Category-based menu cards for pizzas, pasta, soups, desserts, beverages, and appetizers
+- Styled restaurant layout with custom CSS and UI components
+- Clean routing and reusable page structure
 
-## 🛠️ Built With
+## 🛠️ Tech Stack
 
-- HTML5
-- CSS3
+- React
+- Vite
 - JavaScript
+- React Router DOM
+- CSS
+- Material UI
+- React Icons
 
-## 📂 Project Structure
 
-```
+## 📁 Project Structure
+
+```bash
 Restaurant-website/
-├── index.html
-├── style.css
-├── script.js
-├── images/
-└── README.md
+├── README.md
+├── .gitignore
+├── .gitattributes
+├── restoapp/
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── vite.config.js
+│   ├── eslint.config.js
+│   ├── postcss.config.js
+│   ├── tailwind.config.js
+│   ├── index.html
+│   ├── public/
+│   └── src/
+│       ├── App.jsx
+│       ├── App.css
+│       ├── index.css
+│       ├── main.jsx
+│       ├── assets/
+│       ├── components/
+│       ├── helpers/
+│       ├── pages/
+│       └── styles/
+└──
 ```
 
-## 💻 Getting Started
+> Note: The actual React app lives inside the `restoapp/` folder. The repository root is just the project container.
 
-### Clone the repository
+## 🚀 Getting Started
+
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/Aditi691/Restaurant-website.git
 ```
 
-### Navigate to the project
+### 2. Move into the app folder
 
 ```bash
-cd Restaurant-website
+cd Restaurant-website/restoapp
 ```
 
-### Run the application
+### 3. Install dependencies
 
-Open `index.html` in your preferred web browser.
+```bash
+npm install
+```
 
-No additional dependencies or installation are required.
+### 4. Run the development server
 
-## 🎯 Learning Outcomes
+```bash
+npm run dev
+```
 
-This project helped strengthen my understanding of:
+Then open the local URL shown in the terminal, usually:
 
-- Responsive web design
-- HTML page structure and semantics
-- CSS layouts and styling
-- JavaScript for interactive web pages
-- Creating user-friendly interfaces
+```bash
+http://localhost:5173
+```
+
+
+```
+
+
