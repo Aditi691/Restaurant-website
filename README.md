@@ -83,9 +83,6 @@ Then open the local URL shown in the terminal, usually:
 
 ```bash
 http://localhost:5173
-```
 
-
-```
 
 
